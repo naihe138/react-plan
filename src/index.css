@@ -1,0 +1,18 @@
+
+body, p, h1, h2, h3,h4, ul, li, p{
+	margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+input, textarea{
+	-webkit-appearance: none;
+	outline: none;
+	border: none;
+}
+a,
+input, textarea{
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+li{
+	list-style: none;
+}

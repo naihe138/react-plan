@@ -1,0 +1,170 @@
+.main {
+  padding: 10px;
+  flex-direction: row;
+  display: flex;
+}
+.NavBox {
+	width: 250px;
+	margin-right: 20px;
+}
+.listNav{
+	text-align: center;
+}
+.listNav li {
+	line-height: 40px;
+}
+.listNav li a {
+	text-decoration: none;
+}
+.listNav li.active{
+	background: #00a6f7;
+}
+.listNav li.active a{
+	color: #fff;
+}
+.side{
+	width: 100%;
+}
+.slist{
+	font-size: 14px;
+}
+.addBtn {
+	font-size: 14px;
+	font-weight: normal;
+	background: skyblue;
+	display: inline-block;
+	padding: 10px;
+	margin-left:  10px;
+	color: #ffffff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.slist li{
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: solid 1px cornflowerblue;
+}
+
+.slist li h3{
+	font-weight: normal;
+}
+
+.slist li div span{
+	text-decoration: underline;
+	padding: 0 10px;
+}
+.popup{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.popup .pbox {
+	width: 50%;
+	height: 320px;
+	background: #ffffff;
+	box-sizing: border-box;
+	padding: 10px;
+	position: relative;
+}
+.popup .pbox h4{
+	font-size: 14px;
+}
+.popup .pbox input {
+	margin: 10px 0 20px 0;
+}
+.popup .pbox input, .popup .pbox textarea{
+	display: block;
+	width: 100%;
+	height: 32px;
+	border: 1px solid skyblue;
+	text-indent: 10px;
+}
+
+.popup .pbox textarea {
+	resize: none;
+	height: 100px;
+	margin: 10px 0;
+}
+
+.popup .pbox .close {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: red;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #ffffff;
+	right: -15px;
+	top: -15px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.popup .pbox .close:hover{
+	transform: rotate(180deg);
+}
+.popup .pbox .pBtn {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.popup .pbox .pBtn span{
+	padding: 10px 20px;
+	background: skyblue;
+	margin: 0 10px;
+	font-size: 14px;
+	color: #ffffff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.plant{
+	line-height: 50px;
+	position: relative;
+}
+.plant p{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px;
+	background: blue;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	color: #fff;
+}
+.planlist{
+	width: 100%;
+	padding: 10px;
+	border-collapse: collapse;
+}
+.planlist td, th{
+	border: 1px solid blue;
+	line-height: 32px;
+	font-size: 14px;
+
+}
+.plan-delect{
+	color: red;
+	cursor: pointer;
+}
+.plan-delect:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.plan-title{
+	width: 80%;
+}
+
+
+
+
+
+
