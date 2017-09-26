@@ -1,15 +1,4 @@
 import React, { Component } from 'react'
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom'
-
-const Topic = ({ match }) => (
-  <div>
-    <h3>123</h3>
-  </div>
-)
 
 class Home extends Component {
 	constructor(props) {
